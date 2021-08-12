@@ -1,6 +1,6 @@
 // comece a criar a sua função add na linha abaixo
 console.log(add(2,4))
-console.log(multiply(9,9))
+console.log(multiply(3,4))
 console.log(power(3,4))
 console.log(factorial(7))
 console.log(fibonacci(7))
@@ -20,7 +20,7 @@ function add(n1, n2){
 function multiply(n1,n2){
     let m = 0
     for(let i=0; i<n2; i++){
-        m = m + n1
+        m = add(m,n1)
     }
     return m
 }
